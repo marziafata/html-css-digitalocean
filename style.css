@@ -64,9 +64,3 @@ svg {
     background-color: #0069ff;
     border-color: #0069ff;
 }
-
-@media all and (min-width 768px) {
-    .UnifiedNav-logoSVG {
-    text-align: center;
-    }
-}
