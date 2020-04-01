@@ -11,7 +11,7 @@ body {
 }
 
 .UnifiedNav-logoSVG {
-    fill: #0069ff;
+    fill: white;
     cursor: pointer;
 }
 
@@ -23,25 +23,21 @@ svg {
     margin-left: 45px;
 }
 
+.navbar-collapse {
+    display:inline-block;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #031b4e;
     margin-top: 7px;
 }
 
 .navbar-default {
-    background-color: white;
-    border-color: white;
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.navbar-default::after {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(3,27,78,.1);
-    content: "";
-    display: block;
-    height: 4px;
-    margin-top: -4px;
-    width: 100%;
-}
+
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #0069ff;
@@ -63,4 +59,60 @@ svg {
     color: white;
     background-color: #0069ff;
     border-color: #0069ff;
+}
+
+div.display-no {
+    display: none;
+}
+
+div.jumbotrone {
+    background-image: url(img/sfondo.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar-toggle {
+        display: block;
+        float: right;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    div.display-no {
+        display: inline;
+    }
+
+    .navbar-default {
+        background-color: white;
+        border-color: white;
+    }
+
+    .UnifiedNav-logoSVG {
+        fill: #0069ff;
+    }
+
+    .navbar-default::after {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(3,27,78,.1);
+        content: "";
+        display: block;
+        height: 4px;
+        margin-top: -4px;
+        width: 100%;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-header {
+        float: left;
+    }
 }
