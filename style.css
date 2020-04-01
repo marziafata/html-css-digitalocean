@@ -87,6 +87,10 @@ section.jumbotron {
     padding-top: 120px;
 }
 
+.jumbotron .row {
+    padding-right: 33px;
+}
+
 .jumbotron h1, .jumbotron p {
     color: white;
 }
