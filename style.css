@@ -81,11 +81,27 @@ div.display-no {
     display: none;
 }
 
-div.jumbotrone {
+section.jumbotron {
     background-image: url(img/sfondo.jpeg);
     background-size: cover;
-    height: 300px;
+    padding-top: 120px;
 }
+
+.jumbotron h1, .jumbotron p {
+    color: white;
+}
+
+.signupbox {
+    background-color: #fff;
+    border: 1px solid rgba(3,27,78,.1);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 20px rgba(3,27,78,.1);
+    box-shadow: 0 10px 20px rgba(3,27,78,.1);
+    margin: 0;
+    padding: 32px;
+}
+
+/* media query */
 
 @media screen and (min-width: 768px) {
 
