@@ -139,6 +139,36 @@ section.jumbotron {
     color: #fff;
 }
 
+.separatore {
+    position: relative;
+    text-align: center;
+    color: #5b6987;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.separatore span::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #e5e8ed;
+    width: calc((100% - 140px) / 2);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.separatore span::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #e5e8ed;
+    width: calc((100% - 140px) / 2);
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
 /* media query */
 
 @media screen and (min-width: 768px) {
