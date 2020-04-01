@@ -120,7 +120,9 @@ section.jumbotron {
 }
 
 
-
+.form-group input::placeholder {
+    color: rgba(3,27,78,.7);
+}
 
 .btn-primary.form-button {
     color: #fff;
@@ -175,13 +177,21 @@ section.jumbotron {
     border: 1px solid rgba(0,105,255,.2);
     border-radius: 3px;
     margin-top: 15px;
-    display: inline-block;
-    width: 49%;
+    width: 47%;
 }
 
-/* .github-signup {
-    margin-left: 20px;
-} */
+.github.signup {
+    float: right;
+}
+
+
+.terms {
+    color: rgba(3,27,78,.7);
+}
+
+.terms {
+    margin-top: 20px;
+}
 
 
 /* media query */
