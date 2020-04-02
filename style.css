@@ -85,10 +85,7 @@ section.jumbotron {
     background-image: url(img/sfondo.jpeg);
     background-size: cover;
     padding-top: 120px;
-}
-
-.jumbotron .row {
-    padding-right: 33px;
+    margin-bottom: 0;
 }
 
 .jumbotron h1, .jumbotron p {
@@ -126,6 +123,11 @@ section.jumbotron {
 
 .form-group input::placeholder {
     color: rgba(3,27,78,.7);
+}
+
+.form-control:focus {
+    border-color: #0069ff;
+    box-shadow: none;
 }
 
 .btn-primary.form-button {
@@ -182,6 +184,7 @@ section.jumbotron {
     border-radius: 3px;
     margin-top: 15px;
     width: 47%;
+    line-height: 39px;
 }
 
 .github.signup {
@@ -196,6 +199,47 @@ section.jumbotron {
 .terms {
     margin-top: 20px;
 }
+
+/* loghi */
+
+#logos {
+    background-color: #f3f5f9;
+    padding: 64px 0;
+}
+
+#logos h2 small {
+    color: rgba(3,27,78,.4);
+}
+
+#logos img {
+    max-width: 100%;
+    height: auto;
+}
+.row .img {
+    object-fit: cover;
+    height: 135px;
+}
+
+.row div:first-child {
+    padding-top: 20px;
+}
+
+.row div:nth-child(3), .row div:nth-child(5) {
+    padding-top: 17px;
+}
+
+.row div:nth-child(4) {
+    padding-top: 25px;
+}
+
+.row div:last-child {
+    padding-top: 40px
+}
+
+
+
+
+
 
 
 /* media query */
