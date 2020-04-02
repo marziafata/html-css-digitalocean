@@ -10,6 +10,20 @@ body {
     height: 65px;
 }
 
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #031b4e;
+}
+
+p {
+    color: rgba(3,27,78,.7);
+    font-size: 20px;
+}
+
 .UnifiedNav-logoSVG {
     fill: white;
     cursor: pointer;
@@ -204,7 +218,6 @@ section.jumbotron {
 
 #logos {
     background-color: #f3f5f9;
-    padding: 64px 0;
 }
 
 #logos h2 small {
@@ -252,6 +265,30 @@ section.jumbotron {
 .fa-angle-right {
     margin-left: 10px;
 }
+
+
+/* prove di struttura parte deploy */
+
+.wrap {
+    background-color: grey;
+
+}
+.quadrato {
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query */
 
