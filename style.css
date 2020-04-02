@@ -279,10 +279,11 @@ section.jumbotron {
 }
 
 
-/* prove di struttura parte deploy */
+/* parte deploy */
 
 #deploy p.sottotitolo{
     margin-bottom: 40px;
+    font-size: 24px;
 }
 
 .lista ul li {
@@ -315,6 +316,10 @@ section.jumbotron {
 
 #deploy .slot {
     margin-bottom: 32px;
+}
+
+#deploy svg {
+    margin-top: 0;
 }
 
 
