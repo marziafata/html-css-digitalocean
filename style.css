@@ -24,6 +24,20 @@ p {
     font-size: 20px;
 }
 
+a {
+    color: #0069ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .UnifiedNav-logoSVG {
     fill: white;
     cursor: pointer;
@@ -252,8 +266,6 @@ section.jumbotron {
 
 #logos a {
     font-size: 17px;
-    background: transparent;
-    color: #0069ff;
     text-decoration: none;
     cursor: pointer;
 }
@@ -269,16 +281,41 @@ section.jumbotron {
 
 /* prove di struttura parte deploy */
 
-.wrap {
-    background-color: grey;
-
-}
-.quadrato {
-    background-color: pink;
+#deploy p.sottotitolo{
+    margin-bottom: 40px;
 }
 
+.lista ul li {
+    border-left: 2px solid #e5e8ed;
+    display: block;
+    padding: 17px 10px 17px 30px;
+    font-size: 16px;
+    line-height: 100%;
+}
 
+.lista ul li a {
+    color: rgba(3,27,78,.5);
+}
 
+.lista ul li a:hover {
+    color: #031b4e;
+
+}
+.lista ul li:hover {
+    border-left: 2px solid #0069ff;
+}
+
+#deploy h3 {
+    font-size: 20px;
+}
+
+#deploy p {
+    font-size: 16px;
+}
+
+#deploy .slot {
+    margin-bottom: 32px;
+}
 
 
 
