@@ -322,10 +322,14 @@ section.jumbotron {
     margin-top: 0;
 }
 
+.timone {
+    margin-top: 20px;
+}
 
 
-
-
+.slot.first {
+    margin-top: 40px;
+}
 
 
 
@@ -343,6 +347,10 @@ section.jumbotron {
 
     .navbar-header {
         float: none;
+    }
+
+    .slot.first {
+        margin-top: 0;
     }
 }
 
