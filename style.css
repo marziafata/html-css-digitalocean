@@ -215,30 +215,39 @@ section.jumbotron {
     max-width: 100%;
     height: auto;
 }
-.row .img {
+
+#logos .row .img {
     object-fit: cover;
     height: 135px;
 }
 
-.row div:first-child {
+#logos .row .img.docker {
     padding-top: 20px;
 }
 
-.row div:nth-child(3), .row div:nth-child(5) {
+#logos .row div:nth-child(3), .row div:nth-child(5) {
     padding-top: 17px;
 }
 
-.row div:nth-child(4) {
+#logos .row div:nth-child(4) {
     padding-top: 25px;
 }
 
-.row div:last-child {
+#logos .row div:nth-child(6) {
     padding-top: 40px
 }
 
+#logos a {
+    font-size: 17px;
+    background: transparent;
+    color: #0069ff;
+    text-decoration: none;
+    cursor: pointer;
+}
 
-
-
+#logos a:hover {
+    color: #1633ff;
+}
 
 
 
