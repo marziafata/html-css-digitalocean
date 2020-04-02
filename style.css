@@ -214,10 +214,10 @@ section.jumbotron {
 #logos img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 #logos .row .img {
-    object-fit: cover;
     height: 135px;
 }
 
