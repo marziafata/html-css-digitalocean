@@ -249,7 +249,9 @@ section.jumbotron {
     color: #1633ff;
 }
 
-
+.fa-angle-right {
+    margin-left: 10px;
+}
 
 /* media query */
 
