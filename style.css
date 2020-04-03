@@ -263,7 +263,7 @@ section.jumbotron {
     padding-top: 20px;
 }
 
-#logos .row div:nth-child(3), .row div:nth-child(5) {
+#logos .row div:nth-child(3), #logos .row div:nth-child(5) {
     padding-top: 17px;
 }
 
@@ -380,6 +380,31 @@ p.h4 {
 }
 
 
+#data-center {
+    background: #031b4e url(img/map.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 13px;
+}
+
+#data-center h2 {
+    color: white;
+}
+
+
+span.center {
+    color: rgba(255,255,255,.5);
+}
+
+#data-center a {
+    color: #05cac9;
+}
+
+#data-center .col-xs-12 {
+    margin-bottom: 20px;
+}
 
 
 /* media query */
@@ -425,6 +450,11 @@ p.h4 {
     #carosello .img-wrap:hover::after {
         color: #0069ff;
     }
+
+    /* span.right {
+        margin-left: 68px;
+    } */
+
 }
 
 
@@ -469,4 +499,8 @@ p.h4 {
     .navbar-header {
         float: left;
     }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
