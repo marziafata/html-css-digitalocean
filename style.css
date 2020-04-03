@@ -402,6 +402,20 @@ p.h4 {
     color: #05cac9;
 }
 
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(3) > span > a:hover,
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(3) > span > a:hover
+{
+    color: #005fe6;
+}
+
 #data-center .col-xs-12 {
     margin-bottom: 20px;
 }
