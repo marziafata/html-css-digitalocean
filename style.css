@@ -394,7 +394,7 @@ p.h4 {
 }
 
 
-span.center {
+#data-center .col-xs-6 {
     color: rgba(255,255,255,.5);
 }
 
@@ -405,6 +405,24 @@ span.center {
 #data-center .col-xs-12 {
     margin-bottom: 20px;
 }
+
+
+#data-center .col-xs-3:last-child {
+    text-align: right;
+}
+
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(1),
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2),
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3),
+#data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4),
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1),
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2),
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(3),
+#data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4)
+{
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
 
 
 /* media query */
@@ -451,9 +469,18 @@ span.center {
         color: #0069ff;
     }
 
-    /* span.right {
-        margin-left: 68px;
-    } */
+    #data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(1),
+    #data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2),
+    #data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3),
+    #data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4),
+    #data-center > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(5),
+    #data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1),
+    #data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2),
+    #data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(3),
+    #data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4),
+    #data-center > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) {
+        padding: 10px 0;
+    }
 
 }
 
