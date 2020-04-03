@@ -54,6 +54,8 @@ svg {
     margin-top: 15px;
 }
 
+
+
 .navbar-left {
     margin-left: 45px;
 }
@@ -290,6 +292,11 @@ section.jumbotron {
 
 /* parte deploy */
 
+#deploy svg, #built-for svg {
+    height: 41px;
+    width: 41px;
+}
+
 #deploy p.sottotitolo{
     margin-bottom: 40px;
 }
@@ -357,8 +364,6 @@ p.h4 {
     color: rgba(3,27,78,.4);
     margin-bottom: 20px;
 }
-
-
 
 
 
