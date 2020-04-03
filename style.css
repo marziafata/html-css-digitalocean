@@ -345,34 +345,7 @@ section.jumbotron {
 
 #carosello img {
     display: inline-block;
-    max-width: 85%;
-}
-
-#carosello .img-wrap::before {
-    content: '\f053';
-	display: inline-block;
-	position: relative;
-	color: #7c98b6;
-	font-family: "Font Awesome 5 Pro";
-	font-weight: bold;
-	margin-right: 10px;
-    font-size: 25px;
-}
-
-#carosello .img-wrap::after {
-    content: '\f054';
-	display: inline-block;
-	position: relative;
-	color: #7c98b6;
-	font-family: "Font Awesome 5 Pro";
-	font-weight: bold;
-	margin-left: 10px;
-    font-size: 25px;
-    color: #031b4e;
-}
-
-#carosello .img-wrap:hover::after {
-    color: #0069ff;
+    max-width: 90%;
 }
 
 .dots .fa-circle {
@@ -405,6 +378,33 @@ p.h4 {
 
     .slot.first {
         margin-top: 0;
+    }
+
+    #carosello .img-wrap::before {
+        content: '\f053';
+    	display: inline-block;
+    	position: relative;
+    	color: #7c98b6;
+    	font-family: "Font Awesome 5 Pro";
+    	font-weight: bold;
+    	margin-right: 10px;
+        font-size: 25px;
+    }
+
+    #carosello .img-wrap::after {
+        content: '\f054';
+    	display: inline-block;
+    	position: relative;
+    	color: #7c98b6;
+    	font-family: "Font Awesome 5 Pro";
+    	font-weight: bold;
+    	margin-left: 10px;
+        font-size: 25px;
+        color: #031b4e;
+    }
+
+    #carosello .img-wrap:hover::after {
+        color: #0069ff;
     }
 }
 
