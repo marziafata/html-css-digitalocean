@@ -343,6 +343,16 @@ section.jumbotron {
     font-size: 16px;
 }
 
+#built-for p.paragrafo {
+    margin-bottom: 34px;
+}
+
+#built-for p.paragrafo1 {
+    margin-bottom: 56px;
+}
+
+
+
 /* parte carosello */
 
 #carosello {
