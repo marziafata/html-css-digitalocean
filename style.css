@@ -43,6 +43,13 @@ a:hover {
     cursor: pointer;
 }
 
+#header-bottom {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 svg {
     margin-top: 15px;
 }
@@ -67,6 +74,8 @@ svg {
 
 .navbar-toggle {
     border: none;
+    margin-right: 0;
+    margin-top: 15px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -331,9 +340,31 @@ section.jumbotron {
     margin-top: 40px;
 }
 
+/* parte carosello */
 
+#carosello {
+    background-color: #f3f5f9;
+}
 
+#carosello .img-wrap::before {
+    content: '\f053';
+	display: inline-block;
+	position: relative;
+	color: #7c98b6;
+	font-family: "Font Awesome 5 Pro";
+	font-weight: bold;
+	margin-left: 10px;
+}
 
+#carosello .img-wrap::after {
+    content: '\f054';
+	display: inline-block;
+	position: relative;
+	color: #7c98b6;
+	font-family: "Font Awesome 5 Pro";
+	font-weight: bold;
+	margin-left: 10px;
+}
 
 
 /* media query */
@@ -360,17 +391,18 @@ section.jumbotron {
         display: inline;
     }
 
-    /* #header-bottom {
+    #header-bottom {
         position: fixed;
         top: 0;
         right: 0;
         width: 100%;
         z-index: 91;
-    } */
+    }
 
     .navbar-default {
         background-color: white;
         border-color: white;
+        border-radius: 0;
     }
 
     .UnifiedNav-logoSVG {
