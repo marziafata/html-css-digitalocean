@@ -314,13 +314,6 @@ section.jumbotron {
     border-left: 2px solid #0069ff;
 }
 
-#deploy h3 {
-    font-size: 20px;
-}
-
-#deploy p {
-    font-size: 16px;
-}
 
 #deploy .slot {
     margin-bottom: 32px;
