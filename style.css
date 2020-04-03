@@ -292,7 +292,6 @@ section.jumbotron {
 
 #deploy p.sottotitolo{
     margin-bottom: 40px;
-    font-size: 24px;
 }
 
 .lista ul li {
@@ -346,6 +345,11 @@ section.jumbotron {
     background-color: #f3f5f9;
 }
 
+#carosello p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #carosello img {
     display: inline-block;
     max-width: 85%;
@@ -376,6 +380,21 @@ section.jumbotron {
 
 #carosello .img-wrap:hover::after {
     color: #0069ff;
+}
+
+.dots .fa-circle {
+    font-size: 10px;
+    color: #0069ff;
+}
+
+p.h4 {
+    color: rgba(3,27,78,.4);
+    margin-bottom: 20px;
+}
+
+
+
+
 
 
 /* media query */
