@@ -360,6 +360,14 @@ section.jumbotron {
         display: inline;
     }
 
+    /* #header-bottom {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 91;
+    } */
+
     .navbar-default {
         background-color: white;
         border-color: white;
