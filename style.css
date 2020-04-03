@@ -346,6 +346,11 @@ section.jumbotron {
     background-color: #f3f5f9;
 }
 
+#carosello img {
+    display: inline-block;
+    max-width: 85%;
+}
+
 #carosello .img-wrap::before {
     content: '\f053';
 	display: inline-block;
@@ -353,7 +358,8 @@ section.jumbotron {
 	color: #7c98b6;
 	font-family: "Font Awesome 5 Pro";
 	font-weight: bold;
-	margin-left: 10px;
+	margin-right: 10px;
+    font-size: 25px;
 }
 
 #carosello .img-wrap::after {
@@ -364,7 +370,12 @@ section.jumbotron {
 	font-family: "Font Awesome 5 Pro";
 	font-weight: bold;
 	margin-left: 10px;
+    font-size: 25px;
+    color: #031b4e;
 }
+
+#carosello .img-wrap:hover::after {
+    color: #0069ff;
 
 
 /* media query */
