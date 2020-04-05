@@ -437,6 +437,26 @@ p.h4 {
     border-bottom: 1px solid rgba(255,255,255,.5);
 }
 
+#get-started {
+    background-image: url(img/sfondo.jpeg);
+    background-size: cover;
+}
+#get-started h2 {
+    color: white;
+}
+
+#get-started button.btn {
+    font-size: 16px;
+    height: 48px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 0 32px;
+}
+
+#get-started button.btn:hover {
+    background-color: hsla(0,0%,100%,.8);
+    color: #0069ff;
+}
 
 
 /* media query */
