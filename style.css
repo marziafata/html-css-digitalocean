@@ -43,7 +43,7 @@ a:hover {
     cursor: pointer;
 }
 
-#header-bottom {
+#header{
     position: absolute;
     width: 100%;
     top: 0;
@@ -488,8 +488,9 @@ footer .row:nth-child(2) {
 footer h5 {
     color: hsla(0,0%,100%,.5);
     padding: 28px 0;
-    margin-left: 20px;
+    margin-left: 9px;
     font-weight: lighter;
+    font-size: small;
 }
 
 footer .wrap {
@@ -497,9 +498,9 @@ footer .wrap {
 }
 
 footer .wrap-right {
-    float: right;
-    padding: 25px 0;
+    padding: 28px 0;
     font-size: 20px;
+    float: right;
 }
 
 /* media query */
@@ -559,6 +560,10 @@ footer .wrap-right {
         padding: 10px 0;
     }
 
+    footer h5 {
+        margin-left: 20px;
+        font-size: 14px;
+    }
 }
 
 
@@ -567,7 +572,7 @@ footer .wrap-right {
         display: inline;
     }
 
-    #header-bottom {
+    #header {
         position: fixed;
         top: 0;
         right: 0;
@@ -603,8 +608,4 @@ footer .wrap-right {
     .navbar-header {
         float: left;
     }
-}
-
-@media screen and (min-width: 1200px) {
-
 }
