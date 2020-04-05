@@ -482,6 +482,25 @@ footer a:hover {
 footer .list-head {
     color: white;
 }
+footer .row:nth-child(2) {
+    border-top: 1px solid hsla(0,0%,100%,.5);
+}
+footer h5 {
+    color: hsla(0,0%,100%,.5);
+    padding: 28px 0;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+footer .wrap {
+    float: left;
+}
+
+footer .wrap-right {
+    float: right;
+    padding: 25px 0;
+    font-size: 20px;
+}
 
 /* media query */
 
