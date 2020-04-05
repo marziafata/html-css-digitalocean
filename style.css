@@ -441,6 +441,7 @@ p.h4 {
     background-image: url(img/sfondo.jpeg);
     background-size: cover;
 }
+
 #get-started h2 {
     color: white;
 }
@@ -458,6 +459,29 @@ p.h4 {
     color: #0069ff;
 }
 
+footer {
+    background-color: #010e28;
+    color: hsla(0,0%,100%,.5);
+    font-size: 14px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+footer ul li {
+    line-height: 30px;
+}
+
+footer a, footer a:visited {
+    color: hsla(0,0%,100%,.5);
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .list-head {
+    color: white;
+}
 
 /* media query */
 
